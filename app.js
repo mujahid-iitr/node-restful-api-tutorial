@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const productRoutes = require("./api/routes/products");
 const orderRoutes = require("./api/routes/orders");
 
-const MONGO_DB_URI = 'mongodb+srv://shopcart:LlX4VMeCrL05MDj8@cluster0.lomcc.mongodb.net/test?retryWrites=true&w=majority';
+const MONGO_DB_URI = 'mongodb+srv://nodeshop:nodeshop@node-rest-shop.igjdw.mongodb.net/test?retryWrites=true&w=majority';
 
 mongoose.connect(MONGO_DB_URI, {
     useNewUrlParser: true,
